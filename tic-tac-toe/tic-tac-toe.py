@@ -1,5 +1,6 @@
-from itertools import cycle
 import time
+
+from itertools import cycle
 
 
 def main():
