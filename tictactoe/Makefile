@@ -7,5 +7,5 @@ lint:
 test: lint
 
 run:
-	pipenv run python tic-tac-toe.py
+	pipenv run python tictactoe.py
 
