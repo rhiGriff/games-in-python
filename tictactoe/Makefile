@@ -4,8 +4,10 @@ install:
 lint:
 	pipenv run flake8 .
 
-test: lint
+test: 
+	PYTHONPATH=`pwd`/app \
+	pipenv run python -m pytest -vv -s test
 
 run:
-	pipenv run python tictactoe.py
+	pipenv run python app/tictactoe.py
 
